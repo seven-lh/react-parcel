@@ -1,0 +1,35 @@
+{
+    "name": "react-parcel",
+    "version": "1.0.0",
+    "description": "now zero config with parcel",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node proxy.server.js",
+        "build": "parcel index.html"
+    },
+    "author": "lancely (stvn.lh@gmail.com)",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "fontawesome": "^5.6.3",
+        "react": ">=15",
+        "react-dom": "^16.8.4",
+        "react-fontawesome": "^1.6.1",
+        "react-redux": "^6.0.1",
+        "react-router-dom": "^5.0.0",
+        "react-simple-sidenav": "^1.0.1",
+        "redux": "^4.0.1",
+        "redux-promise": "^0.6.0",
+        "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.0-0",
+        "@babel/plugin-proposal-class-properties": "^7.4.0",
+        "@babel/plugin-transform-runtime": "^7.4.0",
+        "@babel/preset-react": "^7.0.0",
+        "express": "^4.16.4",
+        "http-proxy-middleware": "^0.19.1",
+        "parcel-bundler": "^1.12.3"
+    }
+}
